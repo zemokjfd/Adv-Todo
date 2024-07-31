@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boltiny App</title>
+  <!-- render all elements normally -->
+  <link rel="stylesheet" href="css files/normalize.css">
+  <link rel="stylesheet" href="css files/all.min.css">
+  <!-- main css file -->
+  <link rel="stylesheet" href="css files/master.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css files/fontawesome.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+</head>
+
+<body>
+  <div class="fully">
+  </div>
+  <div class="out">
+    <span class="warning">There Is Some Undifined Data</span>
+    <div class="titl">
+      <input type="text" placeholder="Untitled" required>
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+    <div class="project">
+      <div class="start">
+        <div class="item">
+          <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></div>
+          <span>projects</span>
+        </div>
+      </div>
+      <div class="end">
+        <input type="text" placeholder="Empty" required>
+      </div>
+    </div>
+    <div class="tag">
+      <div class="start">
+        <div class="item">
+          <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></div>
+          <span>Tags</span>
+        </div>
+      </div>
+      <div class="end">
+        <input type="text" placeholder="Empty" required>
+      </div>
+    </div>
+    <div class="assign">
+      <div class="start">
+        <div class="item">
+          <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></div>
+          <span>Assign</span>
+        </div>
+      </div>
+      <div class="end">
+        <input type="text" placeholder="Empty" readonly>
+        <div class="cnt">
+          <img src="img/person1.png" alt="Loading">
+          <img src="img/team-02.png" alt="Loading">
+          <img src="img/team-03.png" alt="Loading">
+          <img src="img/team-04.png" alt="Loading">
+        </div>
+      </div>
+    </div>
+    <div class="statu">
+      <div class="start">
+        <div class="item">
+          <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></div>
+          <span>Status</span>
+        </div>
+      </div>
+      <div class="end">
+        <div class="circle" number="1"></div>
+        <div class="circle" number="2"></div>
+        <div class="circle" number="3"></div>
+        <div class="circle" number="4"></div>
+        <div class="circle" number="5"></div>
+      </div>
+    </div>
+    <div class="lik">
+      <div class="start">
+        <div class="item">
+          <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></div>
+          <span>Link</span>
+        </div>
+      </div>
+      <div class="end">
+        <input type="text" placeholder="Empty" required>
+      </div>
+    </div>
+    <div class="photo-url">
+      <div class="start">
+        <div class="item">
+          <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></div>
+          <span>Photo Url</span>
+        </div>
+      </div>
+      <div class="end">
+        <input type="text" placeholder="Write the url of the photo" required>
+      </div>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Create">
+    </div>
+  </div>
+  <!-- start header -->
+  <div class="header">
+    <div class="container">
+      <div class="first">
+        <div class="logo">
+          <span class="img"><img src="img/original-6bfbcbb0b6984e5aab18b1b8867d8102.png" alt=""></span>
+          <div class="text">Boltiny</div>
+        </div>
+        <div class="chooses">
+          <div class="item active">
+            <div class="item-logo"><i class="fa-solid fa-grid-2"></i></div>
+            <span>Tasks</span>
+          </div>
+          <div class="item">
+            <div class="item-logo"><i class="fa-regular fa-folder-minus"></i></i></div>
+            <span>projects</span>
+          </div>
+          <div class="item">
+            <div class="item-logo"><i class="fa-regular fa-clock"></i></div>
+            <span>All Updates</span>
+          </div>
+          <div class="item">
+            <div class="item-logo"><i class="fa-light fa-calendar-days"></i></div>
+            <span>Calendar</span>
+          </div>
+          <div class="item">
+            <div class="item-logo"><i class="fa-light fa-pause"></i></div>
+            <span>Timeline</span>
+          </div>
+        </div>
+      </div>
+      <div class="last">
+        <div class="input">
+          <input type="text" placeholder="Finance">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="contact">
+          <div class="message"><i class="fa-light fa-comment-dots"></i></div>
+          <div class="notification"><i class="fa-thin fa-bell"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header -->
+  <!-- start tasks -->
+  <div class="container">
+    <div class="tasks">
+      <h1 class="heading">Tasks</h1>
+      <div class="pictures">
+        <img src="img/person1.png" alt="Loading">
+        <img src="img/team-02.png" alt="Loading">
+        <img src="img/team-03.png" alt="Loading">
+        <img src="img/team-04.png" alt="Loading">
+        <div class="add"><i class="fa-regular fa-user-plus"></i></div>
+      </div>
+    </div>
+  </div>
+  <!-- end tasks -->
+  <!-- start some chooses -->
+  <div class="big-choose">
+    <div class="container">
+      <div class="choose1">
+        <div class="overview">Overview</div>
+        <div class="board active">Board</div>
+        <div class="timeline">Timeline</div>
+        <div class="activities">Activities</div>
+        <div class="galary">Galary</div>
+      </div>
+      <div class="choose2">
+        <div class="custom">
+          <i class="fa-light fa-grid-2"></i>
+          <div class="text">Customize</div>
+        </div>
+        <div class="filter">
+          <i class="fa-regular fa-filter"></i>
+          <div class="text">Filter</div>
+        </div>
+        <div class="date">
+          <!-- <i class="fa-light fa-grid-2"></i> -->
+          <div class="text">
+            < Jun,2022>
+          </div>
+        </div>
+        <div class="addition active">
+          <i class="fa-regular fa-square-plus"></i>
+          <div class="text">Add section</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end some chooses -->
+  <!-- start state -->
+  <div class="state">
+    <div class="container">
+      <div class="not">
+        <div class="start">
+          <div class="text">Not Started</div>
+          <div class="num"></div>
+        </div>
+        <div class="end">
+          <div class="dots">
+            <i class="fa-regular fa-ellipsis"></i>
+            <div class="edit">
+              <div class="texte">Edit</div>
+            </div>
+            <div class="editing">
+              <div class="start">
+                <input type="text" placeholder="Edit The Name" class="texter">
+                <input type="color" value="#ef6134" class="color one">
+              </div>
+              <div class="end">
+                <input type="submit" value="Change">
+              </div>
+            </div>
+          </div>
+          <div class="adding"><i class="fa-regular fa-square-plus"></i></div>
+        </div>
+      </div>
+      <div class="in">
+        <div class="start">
+          <div class="text">In Progress</div>
+          <div class="num"></div>
+        </div>
+        <div class="end">
+          <div class="dots">
+            <i class="fa-regular fa-ellipsis"></i>
+            <div class="edit">
+              <div class="texte">Edit</div>
+            </div>
+            <div class="editing">
+              <div class="start">
+                <input type="text" placeholder="Edit The Name" class="texter">
+                <input type="color" value="#f2c157" class="color two">
+              </div>
+              <div class="end">
+                <input type="submit" value="Change">
+              </div>
+            </div>
+          </div>
+          <div class="adding"><i class="fa-regular fa-square-plus"></i></div>
+        </div>
+      </div>
+      <div class="completed">
+        <div class="start">
+          <div class="text">Completed</div>
+          <div class="num"></div>
+        </div>
+        <div class="end">
+          <div class="dots">
+            <i class="fa-regular fa-ellipsis"></i>
+            <div class="edit">
+              <div class="texte">Edit</div>
+            </div>
+            <div class="editing">
+              <div class="start">
+                <input type="text" placeholder="Edit The Name" class="texter">
+                <input type="color" value="#2fd170" class="color three">
+              </div>
+              <div class="end">
+                <input type="submit" value="Change">
+              </div>
+            </div>
+          </div>
+          <div class="adding"><i class="fa-regular fa-square-plus"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end state -->
+  <!-- start the lists -->
+  <div class="grey">
+    <div class="container">
+      <div class="grid">
+        <div class="red">
+          <!-- <div class="sec" draggable="true"><span class="space"></span>
+            <div class="tex">
+              <div class="info">
+                <h2 class="title">fsda</h2>
+                <div class="inf">sadf</div>
+              </div>
+              <div class="dot"><i class="fa-regular fa-ellipsis"></i>
+                <div class="boxe">
+                  <div class="remove">Remove</div>
+                  <div class="move">Move</div>
+                </div>
+                <div class="choosee">
+                  <div class="no1">Not Started</div>
+                  <div class="no2">In Progress</div>
+                  <div class="no3">Completed</div>
+                </div>
+              </div>
+            </div>
+            <div class="tags"><i class="fa-regular fa-tag"></i>
+              <div>asdf</div>
+            </div>
+            <div class="images"><img src="img/team-03.png" alt="Loading" class="active"><img src="img/team-02.png"
+                alt="Loading" class="active"></div>
+            <div class="progress">
+              <div class="words">
+                <div class="ta">TaskProgress</div>
+                <div class="five">3/5</div>
+              </div>
+              <div class="bar">
+                <div class="fill" style="border-radius: 50px; width: 60%;"></div>
+              </div>
+            </div>
+            <div class="url"><a href="https://elzero.org" target="_blank">https://elzero.org</a></div>
+            <div class="date">
+              <div class="time"><i class="fa-regular fa-clock"></i>
+                <div>16 Jun-30 Jun</div>
+              </div>
+              <div class="form">
+                <div class="comments"><i class="fa-light fa-comment-dots"></i>
+                  <div>32</div>
+                </div>
+                <div class="links"><i class="fa-light fa-link"></i>
+                  <div>4</div>
+                </div>
+              </div>
+            </div>
+            <div class="im"><img src="http://127.0.0.1:5500/Adv%20Todo/img/team-02.png" alt="This Url Is Wrong"></div>
+          </div> -->
+        </div>
+        <div></div>
+        <div class="yellow">
+        </div>
+        <div></div>
+        <div class="green">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- end the lists -->
+  <script src="main.js"></script>
+</body>
